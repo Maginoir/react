@@ -1,0 +1,20 @@
+{
+  "name": "helloapp",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "me",
+  "descrition": "try react",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "babel" : {
+    "presets": ["latest", "react", "stage-0"]
+    },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "lite-server": "^2.2.2"
+  }
+}
